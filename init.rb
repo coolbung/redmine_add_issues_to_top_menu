@@ -7,7 +7,7 @@ Redmine::Plugin.register :redmine_add_issues_to_top_menu do
   author_url 'http://blog.scimpr.com'
 
   menu :top_menu, :redmine_add_issues_to_top_menu, 
-    {controller: 'issues', action: 'index'},
+    {controller: 'issues', action: 'new'},
     caption: :label_issue_view_all
 
 end
